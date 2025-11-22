@@ -15,10 +15,10 @@ body {
 }
 
 /* خلفيات الصفحات */
-.page-massage { background: url('image/مساج.jpg') center/cover fixed; }
-.page-manicure { background: url('image/مناكير.jpg') center/cover fixed; }
-.page-pedicure { background: url('image/بدكير.webp') center/cover fixed; }
-.page-Moroccan_bath { background: url('image/حمام.jpg') center/cover fixed; }
+.page-massage { background: url('https://anovara-a.github.io/ano_vara/image/مساج.jpg') center/cover fixed; }
+.page-manicure { background: url('https://anovara-a.github.io/ano_vara/image/مناكير.jpg') center/cover fixed; }
+.page-pedicure { background: url('https://anovara-a.github.io/ano_vara/image/بدكير.webp') center/cover fixed; }
+.page-Moroccan_bath { background: url('https://anovara-a.github.io/ano_vara/image/حمام.jpg') center/cover fixed; }
 
 /* الترويسة */
 header {
@@ -117,3 +117,4 @@ main p {
   }
 
 }
+
