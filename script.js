@@ -47,7 +47,8 @@ document.querySelectorAll(".book-btn").forEach(button => {
   button.addEventListener("click", function () {
     const service = this.getAttribute("data-service") || "خدمة";
     const message = `مرحباً، أرغب في حجز خدمة ${service} من موقع Anovara.`;
-    const url = `https://wa.me/${966562886943}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   });
+
 });
