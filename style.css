@@ -1,0 +1,118 @@
+/* تنسيقات عامة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+/* خلفيات الصفحات */
+.page-massage { background: url('../dart/image/مساج.jpg') center/cover fixed; }
+.page-manicure { background: url('../dart/image/مناكير.jpg') center/cover fixed; }
+.page-pedicure { background: url('../dart/image/بدكير.webp') center/cover fixed; }
+.page-Moroccan_bath { background: url('../dart/image/حمام.jpg') center/cover fixed; }
+
+/* الترويسة */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffb6c1;
+}
+
+.lang-btn {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* المحتوى الرئيسي */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(0,0,0,0.5);
+}
+
+main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.book-btn {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.book-btn:hover {
+  background: #ff1493;
+}
+
+/* استجابة للهاتف */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main h1 {
+    font-size: 2rem;
+  }
+
+  .lang-btn {
+    padding: 0.3rem 0.7rem;
+  }
+}
